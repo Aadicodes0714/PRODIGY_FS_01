@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Auth System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Secure User Authentication</h1>
+            <p class="subtitle">Sign up or log in securely</p>
+
+            {% if msg %}
+                <div class="message">{{ msg }}</div>
+            {% endif %}
+
+            <div class="forms">
+                <div class="form-box">
+                    <h2>Register</h2>
+                    <form method="post" action="/register">
+                        <input type="text" name="username" placeholder="Enter username" required>
+                        <input type="password" name="password" placeholder="Enter password" required>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+
+                <div class="form-box">
+                    <h2>Login</h2>
+                    <form method="post" action="/login">
+                        <input type="text" name="username" placeholder="Enter username" required>
+                        <input type="password" name="password" placeholder="Enter password" required>
+                        <button type="submit">Log In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
