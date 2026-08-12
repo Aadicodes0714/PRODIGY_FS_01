@@ -28,8 +28,22 @@ The system follows standard authentication practices including
 secure password handling, session management, and authorization
 checks for protected resources.
 
-## 📌 Task
-
-**Task-01: Secure User Authentication**
-
-Implemented as part of my development/security task series.
+## 📁 Project Structure
+```
+PRODIGY_CS_01/
+│
+├── static/
+│   └── style.css
+│
+├── templates/
+│   ├── index.html
+│   └── protected.html
+│
+├── auth_app.py
+│
+├── README.md
+│
+├── requirements.txt
+│
+└── .gitignore
+```
