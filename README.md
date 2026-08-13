@@ -5,6 +5,16 @@ here it is the task 1 for full stack web development for prodigy infotech intern
 This project implements a secure user authentication system with
 registration and login functionality.
 
+## 🌐 Live Demo
+
+🚀 **[View Live Demo →](https://prodigy-fs-01-srl7.onrender.com/)**
+
+## 📂 Source Code
+
+💻 **[View GitHub Repository →](https://github.com/Aadicodes0714/PRODIGY_FS_01)**
+
+---
+
 ## 🚀 Features
 
 - User Registration
